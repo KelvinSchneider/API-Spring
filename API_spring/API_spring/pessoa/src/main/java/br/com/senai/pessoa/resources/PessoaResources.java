@@ -3,11 +3,8 @@ package br.com.senai.pessoa.resources;
 import br.com.senai.pessoa.model.Pessoa;
 import br.com.senai.pessoa.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
-import java.util.UUID;
 
 @RestController
 @RequestMapping(value = "/psin") // mapear
@@ -46,5 +43,4 @@ public class PessoaResources {
     public void deletePessoa(@RequestBody Pessoa pessoa){
         pessoaRepository.delete(pessoa);
     }
-
 }
