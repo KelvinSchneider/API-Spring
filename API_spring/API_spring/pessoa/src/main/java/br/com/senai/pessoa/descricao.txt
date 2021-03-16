@@ -1,0 +1,10 @@
+API SPRING
+
+Objetivo:
+    - CRUD simples no banco de dados
+
+Dependências utilizadas:
+    - Lombok (Developer Tools)
+    - Spring Web (Web)
+    - MySQL Driver (SQL)
+    - Spring Data JPA (SQL)

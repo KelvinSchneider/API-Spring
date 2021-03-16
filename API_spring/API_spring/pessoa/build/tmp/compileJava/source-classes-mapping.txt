@@ -1,0 +1,8 @@
+br/com/senai/pessoa/model/Pessoa.java
+ br.com.senai.pessoa.model.Pessoa
+br/com/senai/pessoa/PessoaApplication.java
+ br.com.senai.pessoa.PessoaApplication
+br/com/senai/pessoa/resources/PessoaResources.java
+ br.com.senai.pessoa.resources.PessoaResources
+br/com/senai/pessoa/repository/PessoaRepository.java
+ br.com.senai.pessoa.repository.PessoaRepository
