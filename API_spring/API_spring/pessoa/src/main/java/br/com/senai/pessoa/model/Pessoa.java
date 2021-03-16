@@ -1,9 +1,7 @@
 package br.com.senai.pessoa.model;
 
-
 import lombok.*;
 import lombok.experimental.FieldDefaults;
-
 import javax.persistence.*;
 
 @Entity
@@ -23,5 +21,5 @@ public class Pessoa {
     String telefone;
     String email;
     int idade;
-
+    
 }
